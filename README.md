@@ -30,7 +30,10 @@
 </p>
 
 ```yaml
-# Language for the plugin. Available: 'en', 'ru', 'es', 'fr', 'zh', 'pt', 'de', 'ja', 'ko', 'it', 'hi, 'ar'
+# Language for the plugin.
+# Available: 'en', 'ru', 'es', 'fr', 'zh', 'pt',
+# 'de', 'ja', 'ko', 'it', 'hi, 'ar', 'kg', 'pl',
+# 'nl', 'sv', 'cs' 'th', 'fi', 'no'
 language: 'en'
 
 # Database configuration (MariaDB only) false - yaml storage
@@ -57,6 +60,7 @@ stats:
   jump_max_bonus: 0.6
 
 allow_fall_damage: false
+allow_other_players_damage_horses: false
 
 # Horse backpack configuration
 # IMPORTANT. Size must be between 9 and 54, and must be a multiple of 9
@@ -104,11 +108,14 @@ respawn_cooldown_minutes: 15
   - Italian (it)
   - Hindi (hi)
   - Arabic (ar)
+  - Dutch (nl)
+  - Swedish (sv)
+  - Czech (cs)
+  - Thai (th)
+  - Finnish (fi)
+  - Norwegian (no)
+  - Kyrgyz (kg)
 
 - **Storage options:**
   - YAML (small servers 0–70 players)
   - MariaDB (large servers 100+ players)
-
-## License
-
-MIT © [Iliiasik](https://github.com/Iliiasik)
