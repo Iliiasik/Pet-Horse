@@ -1,0 +1,114 @@
+# General
+error:
+  players_only: "&bTa komenda jest dostępna tylko dla graczy!"
+  unknown_command: "&bNieznana komenda."
+  player_not_found: "&bGracz nie został znaleziony lub jest offline."
+
+# Plugin
+plugin:
+  enabled: "PetHorses pomyślnie włączony!"
+  disabled: "PetHorses wyłączony!"
+  autosave: "PetHorses - Autozapis ukończony!"
+
+# Horse
+horse:
+  hidden: "&9Twój koń został ukryty."
+  following: "&9Koń będzie teraz za tobą podążać."
+  staying: "&9Koń pozostanie w miejscu."
+  death_cooldown: "&bTwój koń zginął! Możesz go przywołać ponownie za &9{minutes} &1minut."
+  not_yours: "&bTo nie jest twój koń!"
+  already_has_passenger: "&bKtoś już jedzie na tym koniu!"
+  passenger_mounted: "&9Dosiadłeś konia."
+  passenger_informed_owner: "&9{passenger} dosiadł twojego konia."
+  cooldown_active: "&bTwój koń wciąż się regeneruje! Pozostały czas: &b{time}"
+  level_up: "&bTwój koń osiągnął poziom &9{level}&b!"
+
+# Passenger System
+passenger:
+  usage_allow: "&bUżycie: /horse allowpassenger <nazwa_gracza>"
+  usage_remove: "&bUżycie: /horse removepassenger <nazwa_gracza>"
+  allowed: "&9Zezwoliłeś graczowi &b{player} &9na jazdę na twoim koniu."
+  informed_allowed: "&9{owner} zezwolił ci na jazdę na swoim koniu."
+  removed: "&1Cofnąłeś graczowi &b{player}&1 pozwolenie na jazdę na twoim koniu."
+  informed_removed: "&b{owner} cofnął ci pozwolenie na jazdę na swoim koniu."
+  no_permission: "&bWłaściciel konia nie dał ci pozwolenia na jazdę."
+  list_empty: "&bNie masz autoryzowanych pasażerów."
+  list_header: "&3Autoryzowani pasażerowie:"
+  list_item: "&9- {player}"
+
+# Help
+help:
+  title: "&1----- Komendy Konia &9/horse &1-----"
+  stats: "&9/horse &7- Pokaż statystyki konia"
+  summon: "&9/horse summon &7- Przywołaj swojego konia"
+  hide: "&9/horse hide &7- Ukryj swojego konia"
+  follow: "&9/horse follow &7- Koń podąża za tobą"
+  stay: "&9/horse stay &7- Koń pozostaje w miejscu"
+  customize: "&9/horse customize &7- Dostosuj wygląd konia"
+  allowpassenger: "&9/horse allowpassenger <nazwa> &7- Zezwól graczowi na jazdę"
+  removepassenger: "&9/horse removepassenger <nazwa> &7- Cofnij pozwolenie na jazdę"
+  passengers: "&9/horse passengers &7- Lista autoryzowanych pasażerów"
+  help: "&9/horse help &7- Pokaż tę pomoc"
+
+# Input System
+input:
+  prompt: "&3Wpisz wartość na czacie lub 'anuluj' aby anulować"
+  cancel_keyword: "anuluj"
+  cancelled: "&bAkcja anulowana"
+
+# Menus
+menu:
+  stats:
+    title: "&1Statystyki Konia"
+    level: "&9Poziom: &b{level}"
+    experience: "&3Doświadczenie: &f{current}&9/&f{required}"
+    xp_to_next: "&3XP do następnego poziomu: &b{remaining}"
+    speed: "&9Prędkość: &b{value} &7(~{bps} b/s)"
+    health: "&9Zdrowie: &b{value} ❤"
+    jump_strength: "&9Siła Skoku: &b{value} &7(~{height} bloków)"
+    status_cooldown: "&1Koń się regeneruje"
+    status_ready: "&bKoń jest gotowy"
+    cooldown_remaining: "&3Pozostały czas: &b{time}"
+    total_blocks: "&9Całkowita liczba bloków: &b{value}"
+    total_blocks_description: "&3Całkowita przebyta odległość"
+    total_jumps: "&9Całkowita liczba skoków: &b{value}"
+    total_jumps_description: "&3Całkowita liczba wykonanych skoków"
+  backpack:
+    title: "&1Plecak Konia"
+  customize:
+    title: "&3Dostosowanie Konia"
+    name_item: "&9&lZmień Nazwę"
+    current_name: "&bObecna nazwa: &f{name}"
+    no_name: "&7Brak"
+    name_prompt_1: "&3Kliknij, następnie wpisz"
+    name_prompt_2: "&3nową nazwę na czacie"
+    enter_name_prompt: "&bWpisz nową nazwę dla swojego konia na czacie:"
+    name_changed: "&bNazwa konia zmieniona na: &f{name}"
+    color_changed: "&bKolor konia zmieniony!"
+    save_item: "&9&lZapisz Zmiany"
+    saved: "&bZmiany zapisane!"
+    color_menu_title: "&3Wybierz kolor konia"
+    name_color_menu_title: "&3Wybierz kolor nazwy"
+    color_white: "&fBiały"
+    color_creamy: "&eKremowy"
+    color_chestnut: "&6Kasztanowy"
+    color_brown: "&8Brązowy"
+    color_black: "&7Czarny"
+    color_gray: "&7Szary"
+    color_dark_brown: "&4Ciemnobrązowy"
+    name_color_white: "&fBiały"
+    name_color_gray: "&7Szary"
+    name_color_dark_gray: "&8Ciemnoszary"
+    name_color_black: "&7Czarny"
+    name_color_dark_blue: "&1Ciemnoniebieski"
+    name_color_blue: "&9Niebieski"
+    name_color_dark_green: "&2Ciemnozielony"
+    name_color_green: "&aZielony"
+    name_color_aqua: "&bAkwamaryna"
+    name_color_red: "&4Ciemnoczerwony"
+    name_color_gold: "&6Złoty"
+    name_color_yellow: "&eŻółty"
+    name_color_brown: "&6Brązowy"
+    name_color_purple: "&5Fioletowy"
+    name_color_light_purple: "&dJasnofioletowy"
+

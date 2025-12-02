@@ -1,0 +1,114 @@
+# General
+error:
+  players_only: "&bDit commando is alleen beschikbaar voor spelers!"
+  unknown_command: "&bOnbekend commando."
+  player_not_found: "&bSpeler niet gevonden of offline."
+
+# Plugin
+plugin:
+  enabled: "PetHorses succesvol ingeschakeld!"
+  disabled: "PetHorses uitgeschakeld!"
+  autosave: "PetHorses - Automatisch opslaan voltooid!"
+
+# Horse
+horse:
+  hidden: "&9Je paard is verborgen."
+  following: "&9Het paard zal je nu volgen."
+  staying: "&9Het paard blijft op zijn plaats."
+  death_cooldown: "&bJe paard is gestorven! Je kunt het over &9{minutes} &1minuten weer oproepen."
+  not_yours: "&bDit is niet jouw paard!"
+  already_has_passenger: "&bIemand rijdt al op dit paard!"
+  passenger_mounted: "&9Je bent op het paard gaan zitten."
+  passenger_informed_owner: "&9{passenger} is op jouw paard gaan zitten."
+  cooldown_active: "&bJe paard herstelt nog! Resterende tijd: &b{time}"
+  level_up: "&bJe paard heeft niveau &9{level}&b bereikt!"
+
+# Passenger System
+passenger:
+  usage_allow: "&bGebruik: /horse allowpassenger <speler_naam>"
+  usage_remove: "&bGebruik: /horse removepassenger <speler_naam>"
+  allowed: "&9Je hebt &b{player} &9toestemming gegeven om op je paard te rijden."
+  informed_allowed: "&9{owner} heeft je toestemming gegeven om op zijn paard te rijden."
+  removed: "&1Je hebt de toestemming van &b{player}&1 om op je paard te rijden ingetrokken."
+  informed_removed: "&b{owner} heeft je toestemming om op zijn paard te rijden ingetrokken."
+  no_permission: "&bDe eigenaar van het paard heeft je geen toestemming gegeven om te rijden."
+  list_empty: "&bJe hebt geen geautoriseerde passagiers."
+  list_header: "&3Geautoriseerde passagiers:"
+  list_item: "&9- {player}"
+
+# Help
+help:
+  title: "&1----- Paard Commando's &9/horse &1-----"
+  stats: "&9/horse &7- Toon paard statistieken"
+  summon: "&9/horse summon &7- Roep je paard op"
+  hide: "&9/horse hide &7- Verberg je paard"
+  follow: "&9/horse follow &7- Paard volgt je"
+  stay: "&9/horse stay &7- Paard blijft op zijn plaats"
+  customize: "&9/horse customize &7- Pas uiterlijk van paard aan"
+  allowpassenger: "&9/horse allowpassenger <naam> &7- Geef speler toestemming om te rijden"
+  removepassenger: "&9/horse removepassenger <naam> &7- Trek rijtoestemming in"
+  passengers: "&9/horse passengers &7- Lijst van geautoriseerde passagiers"
+  help: "&9/horse help &7- Toon deze hulp"
+
+# Input System
+input:
+  prompt: "&3Voer een waarde in de chat in of 'annuleer' om te annuleren"
+  cancel_keyword: "annuleer"
+  cancelled: "&bActie geannuleerd"
+
+# Menus
+menu:
+  stats:
+    title: "&1Paard Statistieken"
+    level: "&9Niveau: &b{level}"
+    experience: "&3Ervaring: &f{current}&9/&f{required}"
+    xp_to_next: "&3XP tot volgend niveau: &b{remaining}"
+    speed: "&9Snelheid: &b{value} &7(~{bps} b/s)"
+    health: "&9Gezondheid: &b{value} ❤"
+    jump_strength: "&9Springkracht: &b{value} &7(~{height} blokken)"
+    status_cooldown: "&1Paard herstelt"
+    status_ready: "&bPaard is klaar"
+    cooldown_remaining: "&3Resterende tijd: &b{time}"
+    total_blocks: "&9Totaal Blokken: &b{value}"
+    total_blocks_description: "&3Totale afgelegde afstand"
+    total_jumps: "&9Totaal Sprongen: &b{value}"
+    total_jumps_description: "&3Totaal aantal sprongen gemaakt"
+  backpack:
+    title: "&1Paard Rugzak"
+  customize:
+    title: "&3Paard Aanpassing"
+    name_item: "&9&lNaam Wijzigen"
+    current_name: "&bHuidige naam: &f{name}"
+    no_name: "&7Geen"
+    name_prompt_1: "&3Klik, voer dan"
+    name_prompt_2: "&3een nieuwe naam in de chat in"
+    enter_name_prompt: "&bVoer een nieuwe naam voor je paard in de chat in:"
+    name_changed: "&bPaardnaam gewijzigd naar: &f{name}"
+    color_changed: "&bPaardkleur gewijzigd!"
+    save_item: "&9&lWijzigingen Opslaan"
+    saved: "&bWijzigingen opgeslagen!"
+    color_menu_title: "&3Kies paardkleur"
+    name_color_menu_title: "&3Kies naamkleur"
+    color_white: "&fWit"
+    color_creamy: "&eRoomkleurig"
+    color_chestnut: "&6Kastanjebruin"
+    color_brown: "&8Bruin"
+    color_black: "&7Zwart"
+    color_gray: "&7Grijs"
+    color_dark_brown: "&4Donkerbruin"
+    name_color_white: "&fWit"
+    name_color_gray: "&7Grijs"
+    name_color_dark_gray: "&8Donkergrijs"
+    name_color_black: "&7Zwart"
+    name_color_dark_blue: "&1Donkerblauw"
+    name_color_blue: "&9Blauw"
+    name_color_dark_green: "&2Donkergroen"
+    name_color_green: "&aGroen"
+    name_color_aqua: "&bAqua"
+    name_color_red: "&4Donkerrood"
+    name_color_gold: "&6Goud"
+    name_color_yellow: "&eGeel"
+    name_color_brown: "&6Bruin"
+    name_color_purple: "&5Paars"
+    name_color_light_purple: "&dLichtpaars"
+

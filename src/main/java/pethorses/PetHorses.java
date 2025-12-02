@@ -8,6 +8,7 @@ import pethorses.menus.HorseCustomizationMenu;
 import pethorses.services.HorseBackpackService;
 import pethorses.services.HorseService;
 import pethorses.services.PassengerService;
+import pethorses.storage.HorseData;
 import pethorses.storage.HorseDataManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -38,7 +39,16 @@ public class PetHorses extends JavaPlugin {
     @Override
     public void onDisable() {
         for (UUID playerId : horseDataManager.getAllPlayerIds()) {
-            horseService.hideHorse(horseDataManager.getHorseData(playerId));
+            HorseData data = horseDataManager.getHorseData(playerId);
+            if (data != null && data.getHorseId() != null) {
+                org.bukkit.entity.Entity entity = org.bukkit.Bukkit.getEntity(data.getHorseId());
+                if (entity instanceof org.bukkit.entity.Horse horse) {
+                    for (org.bukkit.entity.Entity passenger : horse.getPassengers()) {
+                        horse.removePassenger(passenger);
+                    }
+                }
+            }
+            horseService.hideHorse(data);
         }
         horseDataManager.saveAllData();
         horseDataManager.close();

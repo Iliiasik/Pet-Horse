@@ -52,8 +52,10 @@ public class HorseEventListener implements Listener {
         Player owner = (Player) horse.getOwner();
         if (owner == null || attacker.getUniqueId().equals(owner.getUniqueId())) return;
 
-        event.setCancelled(true);
-        attacker.sendMessage(localizationManager.getMessage("horse.not_yours"));
+        if (!plugin.getConfigManager().isOtherPlayersDamageHorsesAllowed()) {
+            event.setCancelled(true);
+            attacker.sendMessage(localizationManager.getMessage("horse.not_yours"));
+        }
     }
 
     @EventHandler
@@ -87,8 +89,22 @@ public class HorseEventListener implements Listener {
 
     @EventHandler
     public void onPlayerQuit(PlayerQuitEvent event) {
-        HorseData data = horseService.getHorseData(event.getPlayer().getUniqueId());
-        horseService.hideHorse(data);
+        Player player = event.getPlayer();
+
+        if (player.getVehicle() instanceof Horse horse) {
+            horse.removePassenger(player);
+        }
+
+        HorseData data = horseService.getHorseData(player.getUniqueId());
+        if (data != null && data.getHorseId() != null) {
+            Entity entity = org.bukkit.Bukkit.getEntity(data.getHorseId());
+            if (entity instanceof Horse horse) {
+                for (Entity passenger : horse.getPassengers()) {
+                    horse.removePassenger(passenger);
+                }
+            }
+            horseService.hideHorse(data);
+        }
     }
 
     @EventHandler

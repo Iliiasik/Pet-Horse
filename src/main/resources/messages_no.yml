@@ -1,0 +1,114 @@
+# General
+error:
+  players_only: "&bDenne kommandoen er kun tilgjengelig for spillere!"
+  unknown_command: "&bUkjent kommando."
+  player_not_found: "&bSpiller ikke funnet eller offline."
+
+# Plugin
+plugin:
+  enabled: "PetHorses aktivert!"
+  disabled: "PetHorses deaktivert!"
+  autosave: "PetHorses - Autolagring fullført!"
+
+# Horse
+horse:
+  hidden: "&9Hesten din er skjult."
+  following: "&9Hesten vil nå følge deg."
+  staying: "&9Hesten vil bli stående på plass."
+  death_cooldown: "&bHesten din har dødd! Du kan tilkalle den igjen om &9{minutes} &1minutter."
+  not_yours: "&bDette er ikke hesten din!"
+  already_has_passenger: "&bNoen rir allerede på denne hesten!"
+  passenger_mounted: "&9Du har satt deg opp på hesten."
+  passenger_informed_owner: "&9{passenger} har satt seg opp på hesten din."
+  cooldown_active: "&bHesten din restituerer seg fortsatt! Tid igjen: &b{time}"
+  level_up: "&bHesten din har nådd nivå &9{level}&b!"
+
+# Passenger System
+passenger:
+  usage_allow: "&bBruk: /horse allowpassenger <spillernavn>"
+  usage_remove: "&bBruk: /horse removepassenger <spillernavn>"
+  allowed: "&9Du har gitt &b{player} &9tillatelse til å ri på hesten din."
+  informed_allowed: "&9{owner} har gitt deg tillatelse til å ri på hesten sin."
+  removed: "&1Du har trukket tilbake &b{player}&1s tillatelse til å ri på hesten din."
+  informed_removed: "&b{owner} har trukket tilbake din tillatelse til å ri på hesten sin."
+  no_permission: "&bHestens eier har ikke gitt deg tillatelse til å ri."
+  list_empty: "&bDu har ingen autoriserte passasjerer."
+  list_header: "&3Autoriserte passasjerer:"
+  list_item: "&9- {player}"
+
+# Help
+help:
+  title: "&1----- Hestekommandoer &9/horse &1-----"
+  stats: "&9/horse &7- Vis hestestatistikk"
+  summon: "&9/horse summon &7- Tilkall hesten din"
+  hide: "&9/horse hide &7- Skjul hesten din"
+  follow: "&9/horse follow &7- Hesten følger deg"
+  stay: "&9/horse stay &7- Hesten blir på plass"
+  customize: "&9/horse customize &7- Tilpass hestens utseende"
+  allowpassenger: "&9/horse allowpassenger <navn> &7- Gi spiller tillatelse til å ri"
+  removepassenger: "&9/horse removepassenger <navn> &7- Trekk tilbake ritillatelse"
+  passengers: "&9/horse passengers &7- Liste over autoriserte passasjerer"
+  help: "&9/horse help &7- Vis denne hjelpen"
+
+# Input System
+input:
+  prompt: "&3Skriv inn en verdi i chatten eller 'avbryt' for å avbryte"
+  cancel_keyword: "avbryt"
+  cancelled: "&bHandling avbrutt"
+
+# Menus
+menu:
+  stats:
+    title: "&1Hestestatistikk"
+    level: "&9Nivå: &b{level}"
+    experience: "&3Erfaring: &f{current}&9/&f{required}"
+    xp_to_next: "&3XP til neste nivå: &b{remaining}"
+    speed: "&9Hastighet: &b{value} &7(~{bps} b/s)"
+    health: "&9Helse: &b{value} ❤"
+    jump_strength: "&9Hoppstyrke: &b{value} &7(~{height} blokker)"
+    status_cooldown: "&1Hesten restituerer seg"
+    status_ready: "&bHesten er klar"
+    cooldown_remaining: "&3Tid igjen: &b{time}"
+    total_blocks: "&9Totalt blokker: &b{value}"
+    total_blocks_description: "&3Total tilbakelagt avstand"
+    total_jumps: "&9Totalt hopp: &b{value}"
+    total_jumps_description: "&3Totalt antall hopp utført"
+  backpack:
+    title: "&1Hesteryggsekk"
+  customize:
+    title: "&3Hestetilpasning"
+    name_item: "&9&lEndre navn"
+    current_name: "&bNåværende navn: &f{name}"
+    no_name: "&7Ingen"
+    name_prompt_1: "&3Klikk, skriv deretter"
+    name_prompt_2: "&3et nytt navn i chatten"
+    enter_name_prompt: "&bSkriv inn et nytt navn for hesten din i chatten:"
+    name_changed: "&bHestenavn endret til: &f{name}"
+    color_changed: "&bHestefarge endret!"
+    save_item: "&9&lLagre endringer"
+    saved: "&bEndringer lagret!"
+    color_menu_title: "&3Velg hestefarge"
+    name_color_menu_title: "&3Velg navnfarge"
+    color_white: "&fHvit"
+    color_creamy: "&eKremfarget"
+    color_chestnut: "&6Kastanjebrun"
+    color_brown: "&8Brun"
+    color_black: "&7Svart"
+    color_gray: "&7Grå"
+    color_dark_brown: "&4Mørkebrun"
+    name_color_white: "&fHvit"
+    name_color_gray: "&7Grå"
+    name_color_dark_gray: "&8Mørkegrå"
+    name_color_black: "&7Svart"
+    name_color_dark_blue: "&1Mørkeblå"
+    name_color_blue: "&9Blå"
+    name_color_dark_green: "&2Mørkegrønn"
+    name_color_green: "&aGrønn"
+    name_color_aqua: "&bAqua"
+    name_color_red: "&4Mørkerød"
+    name_color_gold: "&6Gull"
+    name_color_yellow: "&eGul"
+    name_color_brown: "&6Brun"
+    name_color_purple: "&5Lilla"
+    name_color_light_purple: "&dLyslilla"
+

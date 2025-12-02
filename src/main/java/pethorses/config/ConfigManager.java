@@ -82,6 +82,10 @@ public class ConfigManager {
         return config.getBoolean("allow_fall_damage", false);
     }
 
+    public boolean isOtherPlayersDamageHorsesAllowed() {
+        return config.getBoolean("allow_other_players_damage_horses", false);
+    }
+
     public int getBackpackBaseSize() {
         return config.getInt("backpack.base_size", 9);
     }

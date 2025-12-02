@@ -1,0 +1,114 @@
+# General
+error:
+  players_only: "&bBu komut sadece oyuncular için kullanılabilir!"
+  unknown_command: "&bBilinmeyen komut."
+  player_not_found: "&bOyuncu bulunamadı veya çevrimdışı."
+
+# Plugin
+plugin:
+  enabled: "PetHorses başarıyla etkinleştirildi!"
+  disabled: "PetHorses devre dışı bırakıldı!"
+  autosave: "PetHorses - Otomatik kayıt tamamlandı!"
+
+# Horse
+horse:
+  hidden: "&9Atınız gizlendi."
+  following: "&9At artık sizi takip edecek."
+  staying: "&9At yerinde kalacak."
+  death_cooldown: "&bAtınız öldü! &9{minutes} &1dakika sonra tekrar çağırabilirsiniz."
+  not_yours: "&bBu sizin atınız değil!"
+  already_has_passenger: "&bBirisi zaten bu ata biniyor!"
+  passenger_mounted: "&9Ata bindiniz."
+  passenger_informed_owner: "&9{passenger} atınıza bindi."
+  cooldown_active: "&bAtınız hala toparlanıyor! Kalan süre: &b{time}"
+  level_up: "&bAtınız &9{level}&b. seviyeye ulaştı!"
+
+# Passenger System
+passenger:
+  usage_allow: "&bKullanım: /horse allowpassenger <oyuncu_adı>"
+  usage_remove: "&bKullanım: /horse removepassenger <oyuncu_adı>"
+  allowed: "&b{player} &9adlı oyuncunun atınıza binmesine izin verdiniz."
+  informed_allowed: "&9{owner} size atına binmeniz için izin verdi."
+  removed: "&b{player}&1 adlı oyuncunun atınıza binme iznini iptal ettiniz."
+  informed_removed: "&b{owner} sizin atına binme izninizi iptal etti."
+  no_permission: "&bAtın sahibi size binme izni vermedi."
+  list_empty: "&bYetkili yolcunuz yok."
+  list_header: "&3Yetkili Yolcular:"
+  list_item: "&9- {player}"
+
+# Help
+help:
+  title: "&1----- At Komutları &9/horse &1-----"
+  stats: "&9/horse &7- At istatistiklerini göster"
+  summon: "&9/horse summon &7- Atınızı çağırın"
+  hide: "&9/horse hide &7- Atınızı gizleyin"
+  follow: "&9/horse follow &7- At sizi takip eder"
+  stay: "&9/horse stay &7- At yerinde kalır"
+  customize: "&9/horse customize &7- At görünümünü özelleştir"
+  allowpassenger: "&9/horse allowpassenger <isim> &7- Oyuncunun binmesine izin ver"
+  removepassenger: "&9/horse removepassenger <isim> &7- Binme iznini iptal et"
+  passengers: "&9/horse passengers &7- Yetkili yolcuları listele"
+  help: "&9/horse help &7- Bu yardımı göster"
+
+# Input System
+input:
+  prompt: "&3Sohbete bir değer girin veya iptal etmek için 'iptal' yazın"
+  cancel_keyword: "iptal"
+  cancelled: "&bİşlem iptal edildi"
+
+# Menus
+menu:
+  stats:
+    title: "&1At İstatistikleri"
+    level: "&9Seviye: &b{level}"
+    experience: "&3Deneyim: &f{current}&9/&f{required}"
+    xp_to_next: "&3Sonraki seviyeye kadar XP: &b{remaining}"
+    speed: "&9Hız: &b{value} &7(~{bps} b/s)"
+    health: "&9Can: &b{value} ❤"
+    jump_strength: "&9Zıplama Gücü: &b{value} &7(~{height} blok)"
+    status_cooldown: "&1At toparlanıyor"
+    status_ready: "&bAt hazır"
+    cooldown_remaining: "&3Kalan süre: &b{time}"
+    total_blocks: "&9Toplam Blok: &b{value}"
+    total_blocks_description: "&3Toplam kat edilen mesafe"
+    total_jumps: "&9Toplam Zıplama: &b{value}"
+    total_jumps_description: "&3Toplam yapılan zıplama"
+  backpack:
+    title: "&1At Sırt Çantası"
+  customize:
+    title: "&3At Özelleştirme"
+    name_item: "&9&lİsmi Değiştir"
+    current_name: "&bMevcut isim: &f{name}"
+    no_name: "&7Yok"
+    name_prompt_1: "&3Tıklayın, ardından"
+    name_prompt_2: "&3sohbete yeni bir isim girin"
+    enter_name_prompt: "&bAtınız için sohbete yeni bir isim girin:"
+    name_changed: "&bAt ismi şu şekilde değiştirildi: &f{name}"
+    color_changed: "&bAt rengi değiştirildi!"
+    save_item: "&9&lDeğişiklikleri Kaydet"
+    saved: "&bDeğişiklikler kaydedildi!"
+    color_menu_title: "&3At rengini seçin"
+    name_color_menu_title: "&3İsim rengini seçin"
+    color_white: "&fBeyaz"
+    color_creamy: "&eKrem"
+    color_chestnut: "&6Kestane"
+    color_brown: "&8Kahverengi"
+    color_black: "&7Siyah"
+    color_gray: "&7Gri"
+    color_dark_brown: "&4Koyu Kahverengi"
+    name_color_white: "&fBeyaz"
+    name_color_gray: "&7Gri"
+    name_color_dark_gray: "&8Koyu Gri"
+    name_color_black: "&7Siyah"
+    name_color_dark_blue: "&1Koyu Mavi"
+    name_color_blue: "&9Mavi"
+    name_color_dark_green: "&2Koyu Yeşil"
+    name_color_green: "&aYeşil"
+    name_color_aqua: "&bCam Göbeği"
+    name_color_red: "&4Koyu Kırmızı"
+    name_color_gold: "&6Altın"
+    name_color_yellow: "&eSarı"
+    name_color_brown: "&6Kahverengi"
+    name_color_purple: "&5Mor"
+    name_color_light_purple: "&dAçık Mor"
+

@@ -1,0 +1,114 @@
+# General
+error:
+  players_only: "&bคำสั่งนี้ใช้ได้เฉพาะผู้เล่นเท่านั้น!"
+  unknown_command: "&bคำสั่งไม่รู้จัก"
+  player_not_found: "&bไม่พบผู้เล่นหรือออฟไลน์"
+
+# Plugin
+plugin:
+  enabled: "PetHorses เปิดใช้งานสำเร็จ!"
+  disabled: "PetHorses ปิดใช้งานแล้ว!"
+  autosave: "PetHorses - บันทึกอัตโนมัติเสร็จสมบูรณ์!"
+
+# Horse
+horse:
+  hidden: "&9ม้าของคุณถูกซ่อนแล้ว"
+  following: "&9ม้าจะติดตามคุณตอนนี้"
+  staying: "&9ม้าจะอยู่กับที่"
+  death_cooldown: "&bม้าของคุณตายแล้ว! คุณสามารถเรียกมันได้อีกครั้งใน &9{minutes} &1นาที"
+  not_yours: "&bนี่ไม่ใช่ม้าของคุณ!"
+  already_has_passenger: "&bมีคนขี่ม้าตัวนี้อยู่แล้ว!"
+  passenger_mounted: "&9คุณขึ้นขี่ม้าแล้ว"
+  passenger_informed_owner: "&9{passenger} ขึ้นขี่ม้าของคุณ"
+  cooldown_active: "&bม้าของคุณยังกำลังฟื้นตัวอยู่! เวลาที่เหลือ: &b{time}"
+  level_up: "&bม้าของคุณถึงเลเวล &9{level}&b แล้ว!"
+
+# Passenger System
+passenger:
+  usage_allow: "&bวิธีใช้: /horse allowpassenger <ชื่อผู้เล่น>"
+  usage_remove: "&bวิธีใช้: /horse removepassenger <ชื่อผู้เล่น>"
+  allowed: "&9คุณอนุญาตให้ &b{player} &9ขี่ม้าของคุณได้แล้ว"
+  informed_allowed: "&9{owner} อนุญาตให้คุณขี่ม้าของเขาได้แล้ว"
+  removed: "&1คุณเพิกถอนสิทธิ์ของ &b{player}&1 ในการขี่ม้าของคุณแล้ว"
+  informed_removed: "&b{owner} เพิกถอนสิทธิ์ของคุณในการขี่ม้าของเขาแล้ว"
+  no_permission: "&bเจ้าของม้าไม่ได้ให้สิทธิ์คุณในการขี่"
+  list_empty: "&bคุณไม่มีผู้โดยสารที่ได้รับอนุญาต"
+  list_header: "&3ผู้โดยสารที่ได้รับอนุญาต:"
+  list_item: "&9- {player}"
+
+# Help
+help:
+  title: "&1----- คำสั่งม้า &9/horse &1-----"
+  stats: "&9/horse &7- แสดงสถิติม้า"
+  summon: "&9/horse summon &7- เรียกม้าของคุณ"
+  hide: "&9/horse hide &7- ซ่อนม้าของคุณ"
+  follow: "&9/horse follow &7- ม้าติดตามคุณ"
+  stay: "&9/horse stay &7- ม้าอยู่กับที่"
+  customize: "&9/horse customize &7- ปรับแต่งรูปลักษณ์ม้า"
+  allowpassenger: "&9/horse allowpassenger <ชื่อ> &7- อนุญาตให้ผู้เล่นขี่"
+  removepassenger: "&9/horse removepassenger <ชื่อ> &7- เพิกถอนสิทธิ์การขี่"
+  passengers: "&9/horse passengers &7- รายชื่อผู้โดยสารที่ได้รับอนุญาต"
+  help: "&9/horse help &7- แสดงความช่วยเหลือนี้"
+
+# Input System
+input:
+  prompt: "&3ป้อนค่าในแชทหรือ 'ยกเลิก' เพื่อยกเลิก"
+  cancel_keyword: "ยกเลิก"
+  cancelled: "&bยกเลิกการดำเนินการแล้ว"
+
+# Menus
+menu:
+  stats:
+    title: "&1สถิติม้า"
+    level: "&9เลเวล: &b{level}"
+    experience: "&3ประสบการณ์: &f{current}&9/&f{required}"
+    xp_to_next: "&3XP ถึงเลเวลถัดไป: &b{remaining}"
+    speed: "&9ความเร็ว: &b{value} &7(~{bps} b/s)"
+    health: "&9พลังชีวิต: &b{value} ❤"
+    jump_strength: "&9แรงกระโดด: &b{value} &7(~{height} บลอก)"
+    status_cooldown: "&1ม้ากำลังฟื้นตัว"
+    status_ready: "&bม้าพร้อมแล้ว"
+    cooldown_remaining: "&3เวลาที่เหลือ: &b{time}"
+    total_blocks: "&9บลอกทั้งหมด: &b{value}"
+    total_blocks_description: "&3ระยะทางรวมที่เดินทาง"
+    total_jumps: "&9การกระโดดทั้งหมด: &b{value}"
+    total_jumps_description: "&3จำนวนการกระโดดทั้งหมด"
+  backpack:
+    title: "&1กระเป๋าเป้ม้า"
+  customize:
+    title: "&3การปรับแต่งม้า"
+    name_item: "&9&lเปลี่ยนชื่อ"
+    current_name: "&bชื่อปัจจุบัน: &f{name}"
+    no_name: "&7ไม่มี"
+    name_prompt_1: "&3คลิก จากนั้นป้อน"
+    name_prompt_2: "&3ชื่อใหม่ในแชท"
+    enter_name_prompt: "&bป้อนชื่อใหม่สำหรับม้าของคุณในแชท:"
+    name_changed: "&bเปลี่ยนชื่อม้าเป็น: &f{name}"
+    color_changed: "&bเปลี่ยนสีม้าแล้ว!"
+    save_item: "&9&lบันทึกการเปลี่ยนแปลง"
+    saved: "&bบันทึกการเปลี่ยนแปลงแล้ว!"
+    color_menu_title: "&3เลือกสีม้า"
+    name_color_menu_title: "&3เลือกสีชื่อ"
+    color_white: "&fขาว"
+    color_creamy: "&eครีม"
+    color_chestnut: "&6น้ำตาลเกาลัด"
+    color_brown: "&8น้ำตาล"
+    color_black: "&7ดำ"
+    color_gray: "&7เทา"
+    color_dark_brown: "&4น้ำตาลเข้ม"
+    name_color_white: "&fขาว"
+    name_color_gray: "&7เทา"
+    name_color_dark_gray: "&8เทาเข้ม"
+    name_color_black: "&7ดำ"
+    name_color_dark_blue: "&1น้ำเงินเข้ม"
+    name_color_blue: "&9น้ำเงิน"
+    name_color_dark_green: "&2เขียวเข้ม"
+    name_color_green: "&aเขียว"
+    name_color_aqua: "&bฟ้าอมเขียว"
+    name_color_red: "&4แดงเข้ม"
+    name_color_gold: "&6ทอง"
+    name_color_yellow: "&eเหลือง"
+    name_color_brown: "&6น้ำตาล"
+    name_color_purple: "&5ม่วง"
+    name_color_light_purple: "&dม่วงอ่อน"
+

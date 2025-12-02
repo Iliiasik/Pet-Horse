@@ -1,0 +1,114 @@
+# General
+error:
+  players_only: "&bDetta kommando är endast tillgängligt för spelare!"
+  unknown_command: "&bOkänt kommando."
+  player_not_found: "&bSpelare hittades inte eller är offline."
+
+# Plugin
+plugin:
+  enabled: "PetHorses aktiverat framgångsrikt!"
+  disabled: "PetHorses inaktiverat!"
+  autosave: "PetHorses - Autosparning slutförd!"
+
+# Horse
+horse:
+  hidden: "&9Din häst är dold."
+  following: "&9Hästen kommer nu att följa dig."
+  staying: "&9Hästen stannar kvar på plats."
+  death_cooldown: "&bDin häst har dött! Du kan kalla på den igen om &9{minutes} &1minuter."
+  not_yours: "&bDetta är inte din häst!"
+  already_has_passenger: "&bNågon rider redan på denna häst!"
+  passenger_mounted: "&9Du har suttit upp på hästen."
+  passenger_informed_owner: "&9{passenger} har suttit upp på din häst."
+  cooldown_active: "&bDin häst återhämtar sig fortfarande! Tid kvar: &b{time}"
+  level_up: "&bDin häst har nått nivå &9{level}&b!"
+
+# Passenger System
+passenger:
+  usage_allow: "&bAnvändning: /horse allowpassenger <spelarnamn>"
+  usage_remove: "&bAnvändning: /horse removepassenger <spelarnamn>"
+  allowed: "&9Du har tillåtit &b{player} &9att rida på din häst."
+  informed_allowed: "&9{owner} har tillåtit dig att rida på sin häst."
+  removed: "&1Du har återkallat &b{player}&1s tillstånd att rida på din häst."
+  informed_removed: "&b{owner} har återkallat ditt tillstånd att rida på sin häst."
+  no_permission: "&bHästens ägare har inte gett dig tillstånd att rida."
+  list_empty: "&bDu har inga auktoriserade passagerare."
+  list_header: "&3Auktoriserade passagerare:"
+  list_item: "&9- {player}"
+
+# Help
+help:
+  title: "&1----- Hästkommandon &9/horse &1-----"
+  stats: "&9/horse &7- Visa häststatistik"
+  summon: "&9/horse summon &7- Kalla på din häst"
+  hide: "&9/horse hide &7- Dölj din häst"
+  follow: "&9/horse follow &7- Hästen följer dig"
+  stay: "&9/horse stay &7- Hästen stannar på plats"
+  customize: "&9/horse customize &7- Anpassa hästens utseende"
+  allowpassenger: "&9/horse allowpassenger <namn> &7- Tillåt spelare att rida"
+  removepassenger: "&9/horse removepassenger <namn> &7- Återkalla ridtillstånd"
+  passengers: "&9/horse passengers &7- Lista över auktoriserade passagerare"
+  help: "&9/horse help &7- Visa denna hjälp"
+
+# Input System
+input:
+  prompt: "&3Ange ett värde i chatten eller 'avbryt' för att avbryta"
+  cancel_keyword: "avbryt"
+  cancelled: "&bÅtgärd avbruten"
+
+# Menus
+menu:
+  stats:
+    title: "&1Häststatistik"
+    level: "&9Nivå: &b{level}"
+    experience: "&3Erfarenhet: &f{current}&9/&f{required}"
+    xp_to_next: "&3XP till nästa nivå: &b{remaining}"
+    speed: "&9Hastighet: &b{value} &7(~{bps} b/s)"
+    health: "&9Hälsa: &b{value} ❤"
+    jump_strength: "&9Hoppstyrka: &b{value} &7(~{height} block)"
+    status_cooldown: "&1Hästen återhämtar sig"
+    status_ready: "&bHästen är redo"
+    cooldown_remaining: "&3Tid kvar: &b{time}"
+    total_blocks: "&9Totalt Block: &b{value}"
+    total_blocks_description: "&3Total tillryggalagd sträcka"
+    total_jumps: "&9Totalt Hopp: &b{value}"
+    total_jumps_description: "&3Totalt antal gjorda hopp"
+  backpack:
+    title: "&1Hästryggsäck"
+  customize:
+    title: "&3Hästanpassning"
+    name_item: "&9&lÄndra Namn"
+    current_name: "&bNuvarande namn: &f{name}"
+    no_name: "&7Inget"
+    name_prompt_1: "&3Klicka, ange sedan"
+    name_prompt_2: "&3ett nytt namn i chatten"
+    enter_name_prompt: "&bAnge ett nytt namn för din häst i chatten:"
+    name_changed: "&bHästnamn ändrat till: &f{name}"
+    color_changed: "&bHästfärg ändrad!"
+    save_item: "&9&lSpara Ändringar"
+    saved: "&bÄndringar sparade!"
+    color_menu_title: "&3Välj hästfärg"
+    name_color_menu_title: "&3Välj namnfärg"
+    color_white: "&fVit"
+    color_creamy: "&eKrämfärgad"
+    color_chestnut: "&6Kastanjebrun"
+    color_brown: "&8Brun"
+    color_black: "&7Svart"
+    color_gray: "&7Grå"
+    color_dark_brown: "&4Mörkbrun"
+    name_color_white: "&fVit"
+    name_color_gray: "&7Grå"
+    name_color_dark_gray: "&8Mörkgrå"
+    name_color_black: "&7Svart"
+    name_color_dark_blue: "&1Mörkblå"
+    name_color_blue: "&9Blå"
+    name_color_dark_green: "&2Mörkgrön"
+    name_color_green: "&aGrön"
+    name_color_aqua: "&bAqua"
+    name_color_red: "&4Mörkröd"
+    name_color_gold: "&6Guld"
+    name_color_yellow: "&eGul"
+    name_color_brown: "&6Brun"
+    name_color_purple: "&5Lila"
+    name_color_light_purple: "&dLjuslila"
+
