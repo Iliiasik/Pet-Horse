@@ -1,0 +1,114 @@
+# General
+error:
+  players_only: "&bБул команда оюнчулар үчүн гана жеткиликтүү!"
+  unknown_command: "&bБелгисиз команда."
+  player_not_found: "&bОюнчу табылган жок же оффлайн."
+
+# Plugin
+plugin:
+  enabled: "PetHorses ийгиликтүү иштетилди!"
+  disabled: "PetHorses өчүрүлдү!"
+  autosave: "PetHorses - Автосактоо аяктады!"
+
+# Horse
+horse:
+  hidden: "&9Сиздин атыңыз жашырылды."
+  following: "&9Ат азыр сизди ээрчий баштайт."
+  staying: "&9Ат ордунда туруп калат."
+  death_cooldown: "&bСиздин атыңыз өлдү! Аны &9{minutes} &1мүнөттөн кийин кайра чакыра аласыз."
+  not_yours: "&bБул сиздин атыңыз эмес!"
+  already_has_passenger: "&bБул атта кимдир бирөө мингип жатат!"
+  passenger_mounted: "&9Сиз атка минип алдыңыз."
+  passenger_informed_owner: "&9{passenger} сиздин атыңызга минип алды."
+  cooldown_active: "&bСиздин атыңыз дагы эле калыбына келүүдө! Калган убакыт: &b{time}"
+  level_up: "&bСиздин атыңыз &9{level}&b деңгээлине жетти!"
+
+# Passenger System
+passenger:
+  usage_allow: "&bКолдонуу: /horse allowpassenger <оюнчунун_аты>"
+  usage_remove: "&bКолдонуу: /horse removepassenger <оюнчунун_аты>"
+  allowed: "&9Сиз &b{player} &9оюнчусуна атыңызга минүүгө уруксат бердиңиз."
+  informed_allowed: "&9{owner} сизге өзүнүн атына минүүгө уруксат берди."
+  removed: "&1Сиз &b{player}&1 оюнчусунун атыңызга минүү уруксатын алып салдыңыз."
+  informed_removed: "&b{owner} сиздин атына минүү уруксатыңызды алып салды."
+  no_permission: "&bАттын ээси сизге минүүгө уруксат берген жок."
+  list_empty: "&bСизде уруксат алган жолоочулар жок."
+  list_header: "&3Уруксат алган жолоочулар:"
+  list_item: "&9- {player}"
+
+# Help
+help:
+  title: "&1----- Ат командалары &9/horse &1-----"
+  stats: "&9/horse &7- Аттын статистикасын көрсөтүү"
+  summon: "&9/horse summon &7- Атыңызды чакыруу"
+  hide: "&9/horse hide &7- Атыңызды жашыруу"
+  follow: "&9/horse follow &7- Ат сизди ээрчийт"
+  stay: "&9/horse stay &7- Ат ордунда турат"
+  customize: "&9/horse customize &7- Аттын сырткы көрүнүшүн өзгөртүү"
+  allowpassenger: "&9/horse allowpassenger <аты> &7- Оюнчуга минүүгө уруксат берүү"
+  removepassenger: "&9/horse removepassenger <аты> &7- Минүү уруксатын алып салуу"
+  passengers: "&9/horse passengers &7- Уруксат алган жолоочулардын тизмеси"
+  help: "&9/horse help &7- Бул жардамды көрсөтүү"
+
+# Input System
+input:
+  prompt: "&3Маанини чатка жазыңыз же жокко чыгаруу үчүн 'жокко' деп жазыңыз"
+  cancel_keyword: "жокко"
+  cancelled: "&bАракет жокко чыгарылды"
+
+# Menus
+menu:
+  stats:
+    title: "&1Аттын статистикасы"
+    level: "&9Деңгээли: &b{level}"
+    experience: "&3Тажрыйба: &f{current}&9/&f{required}"
+    xp_to_next: "&3Кийинки деңгээлге чейинки XP: &b{remaining}"
+    speed: "&9Ылдамдыгы: &b{value} &7(~{bps} б/с)"
+    health: "&9Ден соолугу: &b{value} ❤"
+    jump_strength: "&9Секирүү күчү: &b{value} &7(~{height} блок)"
+    status_cooldown: "&1Ат калыбына келүүдө"
+    status_ready: "&bАт даяр"
+    cooldown_remaining: "&3Калган убакыт: &b{time}"
+    total_blocks: "&9Бардык блоктор: &b{value}"
+    total_blocks_description: "&3Өтүлгөн жалпы аралык"
+    total_jumps: "&9Бардык секирүүлөр: &b{value}"
+    total_jumps_description: "&3Жасалган секирүүлөрдүн жалпы саны"
+  backpack:
+    title: "&1Аттын рюкзагы"
+  customize:
+    title: "&3Атты өзгөртүү"
+    name_item: "&9&lАтын өзгөртүү"
+    current_name: "&bАзыркы аты: &f{name}"
+    no_name: "&7Жок"
+    name_prompt_1: "&3Баскыла, андан кийин"
+    name_prompt_2: "&3чатка жаңы атын жазыңыз"
+    enter_name_prompt: "&bАтыңыз үчүн жаңы атты чатка жазыңыз:"
+    name_changed: "&bАттын аты өзгөртүлдү: &f{name}"
+    color_changed: "&bАттын түсү өзгөртүлдү!"
+    save_item: "&9&lОзгөртүүлөрдү сактоо"
+    saved: "&bОзгөртүүлөр сакталды!"
+    color_menu_title: "&3Аттын түсүн тандоо"
+    name_color_menu_title: "&3Аттын түсүн тандоо"
+    color_white: "&fАк"
+    color_creamy: "&eКремдүү"
+    color_chestnut: "&6Каштандуу"
+    color_brown: "&8Күрөң"
+    color_black: "&7Кара"
+    color_gray: "&7Боз"
+    color_dark_brown: "&4Күңгүрт күрөң"
+    name_color_white: "&fАк"
+    name_color_gray: "&7Боз"
+    name_color_dark_gray: "&8Күңгүрт боз"
+    name_color_black: "&7Кара"
+    name_color_dark_blue: "&1Күңгүрт көк"
+    name_color_blue: "&9Көк"
+    name_color_dark_green: "&2Күңгүрт жашыл"
+    name_color_green: "&aЖашыл"
+    name_color_aqua: "&bАква"
+    name_color_red: "&4Күңгүрт кызыл"
+    name_color_gold: "&6Алтын"
+    name_color_yellow: "&eСары"
+    name_color_brown: "&6Күрөң"
+    name_color_purple: "&5Күлгүн"
+    name_color_light_purple: "&dАчык күлгүн"
+
