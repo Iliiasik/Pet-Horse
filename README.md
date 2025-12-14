@@ -11,8 +11,12 @@
   </a><br>
   <a href="https://www.codefactor.io/repository/github/iliiasik/pet-horse/overview/main">
     <img src="https://www.codefactor.io/repository/github/iliiasik/pet-horse/badge/main" alt="CodeFactor"/>
+  </a><br>
+  <a href="https://sonarcloud.io/summary/new_code?id=Iliiasik_Pet-Horse">
+    <img src="https://sonarcloud.io/api/project_badges/quality_gate?project=Iliiasik_Pet-Horse&style=for-the-badge" alt="Quality Gate"/>
   </a>
 </p>
+
 
 
 <img width="2372" height="1427" alt="Horse-header" src="https://github.com/user-attachments/assets/5f112ddc-52b0-4fde-b443-a2cdeb530ed0" />
