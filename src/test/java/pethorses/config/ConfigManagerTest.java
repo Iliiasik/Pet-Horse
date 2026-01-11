@@ -73,6 +73,20 @@ public class ConfigManagerTest {
     }
 
     @Test
+    public void testGetAutosaveLog() {
+        ConfigManager manager = plugin.getConfigManager();
+        boolean log = manager.getAutosaveLog();
+        assertTrue(log);
+    }
+
+    @Test
+    public void testGetAutosaveIntervalMinutes() {
+        ConfigManager manager = plugin.getConfigManager();
+        long interval = manager.getAutosaveIntervalMinutes();
+        assertTrue(interval > 0);
+    }
+
+    @Test
     public void testGetBaseXpForLevel() {
         ConfigManager manager = plugin.getConfigManager();
         int xp = manager.getBaseXpForLevel();

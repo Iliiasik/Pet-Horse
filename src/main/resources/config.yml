@@ -13,6 +13,11 @@ database:
   user: "root"
   password: ""
 
+# Autosave options
+autosave:
+  interval_minutes: 10 # Interval in minutes for autosaving horse data. Must be between 1 and 10080
+  log: true # Log autosave events, disable to reduce server console spam
+
 # Leveling system configuration
 leveling:
   base_xp: 100

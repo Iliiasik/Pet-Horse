@@ -42,6 +42,14 @@ public class ConfigManager {
         return config.getString("database.password", "");
     }
 
+    public boolean getAutosaveLog() {
+        return config.getBoolean("autosave.log", true);
+    }
+
+    public long getAutosaveIntervalMinutes() {
+        return config.getLong("autosave.interval_minutes", 10);
+    }
+
     public int getBaseXpForLevel() {
         return config.getInt("leveling.base_xp", 100);
     }

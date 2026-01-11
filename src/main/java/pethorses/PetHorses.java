@@ -102,10 +102,12 @@ public class PetHorses extends JavaPlugin {
     }
 
     private void startAutoSaveTask() {
-        long interval = 20L * 60L * 10L;
+        long interval = 20L * 60L * configManager.getAutosaveIntervalMinutes();
         getServer().getScheduler().runTaskTimerAsynchronously(this, () -> {
             horseDataManager.saveAllData();
-            getLogger().info(localizationManager.getMessage("plugin.autosave"));
+            if (configManager.getAutosaveLog()) {
+                getLogger().info(localizationManager.getMessage("plugin.autosave"));
+            }
         }, interval, interval);
     }
 }

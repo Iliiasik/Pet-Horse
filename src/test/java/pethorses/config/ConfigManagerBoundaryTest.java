@@ -104,6 +104,14 @@ public class ConfigManagerBoundaryTest {
     }
 
     @Test
+    public void testAutosaveIntervalMinutesBoundary() {
+        long autosaveInterval = configManager.getAutosaveIntervalMinutes();
+
+        assertTrue(autosaveInterval > 0);
+        assertTrue(autosaveInterval <= 10080);
+    }
+
+    @Test
     public void testBackpackSizeWithDifferentConfigs() {
         int[] baseSizes = {9, 18, 27};
         int[] increments = {0, 3, 9};
