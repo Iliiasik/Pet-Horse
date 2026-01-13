@@ -8,12 +8,6 @@
   </a><br>
   <a href="https://www.curseforge.com/minecraft/bukkit-plugins/pet-horses">
     <img src="https://cf.way2muchnoise.eu/full_1347084_downloads.svg" alt="CurseForge Downloads"/>
-  </a><br>
-  <a href="https://www.codefactor.io/repository/github/iliiasik/pet-horse/overview/main">
-    <img src="https://www.codefactor.io/repository/github/iliiasik/pet-horse/badge/main" alt="CodeFactor"/>
-  </a><br>
-  <a href="https://sonarcloud.io/summary/new_code?id=Iliiasik_Pet-Horse">
-    <img src="https://sonarcloud.io/api/project_badges/quality_gate?project=Iliiasik_Pet-Horse&style=for-the-badge" alt="Quality Gate"/>
   </a>
 </p>
 
