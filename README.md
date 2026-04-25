@@ -1,14 +1,7 @@
-<h3 align="center">
-  PET HORSE
-</h3>
-
 <p align="center">
   <a href="https://modrinth.com/plugin/pet-horse">
     <img src="https://img.shields.io/modrinth/dt/pet-horse?color=green&style=for-the-badge&logo=modrinth" alt="Modrinth Downloads"/>
   </a><br>
-  <a href="https://www.curseforge.com/minecraft/bukkit-plugins/pet-horses">
-    <img src="https://cf.way2muchnoise.eu/full_1347084_downloads.svg" alt="CurseForge Downloads"/>
-  </a>
 </p>
 
 
