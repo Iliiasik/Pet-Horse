@@ -4,21 +4,14 @@
   </a><br>
 </p>
 
-
-
-<img width="2372" height="1427" alt="Horse-header" src="https://github.com/user-attachments/assets/5f112ddc-52b0-4fde-b443-a2cdeb530ed0" />
-
-<p align="center">
-<img width="327" height="146" alt="Horse stats" src="https://github.com/user-attachments/assets/2396f8d9-9e2e-4d4a-9dab-227c3d04a21a" />
-</p>
+<img width="3601" height="2236" alt="Header" src="https://github.com/user-attachments/assets/73ebc362-ef32-4a07-9b11-2e4bcb8743cb" />
 
 <p align="center">
   <img width="800" height="400" alt="Horse Level" src="https://github.com/user-attachments/assets/1ac20d64-dab8-4981-974c-736f87e18be9">
 </p>
 
-<p align="center">
-  <img width="603" height="238" alt="Horse die" src="https://github.com/user-attachments/assets/d7ddb615-f72c-449c-b7e5-9a7d28296463">
-</p>
+<img width="3409" height="1517" alt="Horse die" src="https://github.com/user-attachments/assets/a7b5ee22-1afb-4bf3-ad88-f6a203f8cecc" />
+
 
 ```yaml
 # Language for the plugin.
@@ -75,43 +68,10 @@ respawn_cooldown_minutes: 15
   <img src="https://github.com/user-attachments/assets/94a4f993-d64d-407c-9401-e5c1b49a0f9b" width="800" height="400" alt="Horse Customize">
 </p>
 
-<p align="center">
-  <img width="750" height="272" alt="Horse customize" src="https://github.com/user-attachments/assets/107844f7-adf4-4987-a9bf-58d3c8cea8e1">
-</p>
-
+<img width="4017" height="1760" alt="Horse customize" src="https://github.com/user-attachments/assets/adce8ef6-f0ac-437e-8ff8-201f94893576" />
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/db600f08-4781-49eb-9b3c-15a3f0ecca1e" width="800" alt="Horse Backpack" />
 </p>
 
-<p align="center">
-  <img width="750" height="338" alt="Horse inventory" src="https://github.com/user-attachments/assets/d52ebc9a-4cb6-464e-8724-28694d0cab94">
-</p>
-
-
----
-
-- **Supports multiple languages:**
-  - English (en)
-  - Russian (ru)
-  - Spanish (es)
-  - French (fr)
-  - Chinese (zh)
-  - Portuguese (pt)
-  - German (de)
-  - Japanese (ja)
-  - Korean (ko)
-  - Italian (it)
-  - Hindi (hi)
-  - Arabic (ar)
-  - Dutch (nl)
-  - Swedish (sv)
-  - Czech (cs)
-  - Thai (th)
-  - Finnish (fi)
-  - Norwegian (no)
-  - Kyrgyz (kg)
-
-- **Storage options:**
-  - YAML (small servers 0–70 players)
-  - MariaDB (large servers 100+ players)
+<img width="4737" height="2048" alt="Horse inventory" src="https://github.com/user-attachments/assets/10352610-e791-4643-bcc7-eeed6570a56e" />
