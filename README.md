@@ -4,6 +4,8 @@
   </a><br>
 </p>
 
+<img width="2048" height="373" alt="Logo" src="https://github.com/user-attachments/assets/926246f9-bfd6-44b5-8277-8da16b166320" />
+
 <img width="3601" height="2236" alt="Header" src="https://github.com/user-attachments/assets/73ebc362-ef32-4a07-9b11-2e4bcb8743cb" />
 
 <p align="center">
