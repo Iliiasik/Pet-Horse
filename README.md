@@ -1,9 +1,3 @@
-<p align="center">
-  <a href="https://modrinth.com/plugin/pet-horse">
-    <img src="https://img.shields.io/modrinth/dt/pet-horse?color=green&style=for-the-badge&logo=modrinth" alt="Modrinth Downloads"/>
-  </a><br>
-</p>
-
 <img width="2048" height="373" alt="Logo" src="https://github.com/user-attachments/assets/926246f9-bfd6-44b5-8277-8da16b166320" />
 
 <img width="3601" height="2236" alt="Header" src="https://github.com/user-attachments/assets/73ebc362-ef32-4a07-9b11-2e4bcb8743cb" />
